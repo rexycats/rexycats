@@ -555,6 +555,11 @@ mark,
   height: auto;
 }
 
+.img-tiny {
+  width: auto;
+  height: 3rem;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -7634,6 +7639,11 @@ button.bg-dark:focus {
 .mt-1,
 .my-1 {
   margin-top: 0.25rem !important;
+}
+
+.mt-05,
+.my-05 {
+  margin-top: 0.15rem !important;
 }
 
 .mr-1,
