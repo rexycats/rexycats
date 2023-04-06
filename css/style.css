@@ -48,7 +48,7 @@
 
 @font-face {
   font-family: "Arrow";
-  src: url("fonts/Arrow.ttf");
+  src: local("fonts/Arrow.ttf");
 }
 
 html {
