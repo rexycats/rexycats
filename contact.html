@@ -53,7 +53,7 @@
             <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
                 <div class="navbar-nav mr-auto py-0">
                     <a href="index.html" class="nav-item nav-link">Home</a>
-                    <a href="devon_rex.html" class="nav-item nav-link">About</a>
+                    <a href="devon_rex.html" class="nav-item nav-link">Devon Rex</a>
                     <a href="katers.html" class="nav-item nav-link">Katers</a>
                     <a href="contact.html" class="nav-item nav-link active">Contact</a>
                     <!-- <a href="price.html" class="nav-item nav-link">Price</a> -->
@@ -81,10 +81,10 @@
             <div class="col-12 col-sm-8 mb-5">
                 <div class="contact-form">
                     <div id="success"></div>
-                    <!--  action="mailto:jens.leirens@gmail.com" method="post" enctype="text/plain" -->
+                    <!--  action="mailto:rexycats@hotmail.com" method="post" enctype="text/plain" -->
                     <!-- name="sentMessage" id="contactForm" novalidate="novalidate" -->
                     <!-- action="https://formspree.io/f/mknaqewv" method="POST" -->
-                    <form id="contactForm" action="mailto:jens.leirens@gmail.com" method="post" enctype="text/plain">
+                    <form id="contactForm" action="mailto:rexycats@hotmail.com" method="post" enctype="text/plain">
                         <div class="control-group">
                             <label for="Naam">Naam:</label><br>
                             <input type="text" class="form-control p-4" id="name" name="Naam" placeholder="Naam" required="required" data-validation-required-message="Dit veld is verplicht" />
@@ -135,8 +135,8 @@
     </div>
     <!-- Contact End -->
 
- <!-- Footer Start -->
- <div class="container-fluid bg-dark text-white mt-5 py-5 px-sm-3 px-md-5">
+  <!-- Footer Start -->
+  <div class="container-fluid bg-dark text-white mt-5 py-5 px-sm-3 px-md-5">
     <div class="row pt-5">
         <div class="col-lg-4 col-md-12 mb-5">
             <h1 class="mb-3 display-5 text-capitalize text-primary">RexyCats</h1>
@@ -145,12 +145,15 @@
             <div class="row">
                 <div class="col-md-4 mb-5">
                     <h5 class="text-primary mb-4">Get In Touch</h5>
-                    <p><i class="fa fa-phone-alt mr-2"></i>+012 345 67890</p>
-                    <p><i class="fa fa-envelope mr-2"></i>info@example.com</p>
-                    <div class="d-flex justify-content-start mt-4">
+                    <!-- <p><i class="fa fa-phone-alt mr-2"></i>+012 345 67890</p> -->
+                    <p><i class="fa fa-envelope mr-2"></i>rexycats@hotmail.com</p>
+                    <p><i class="fa fa-id-card mr-2"></i>HK nummer: <span class="text-secondary">HK20407846</span></p>
+                    
+
+                    <!-- <div class="d-flex justify-content-start mt-4">
                         <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 36px; height: 36px;" href="#"><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 36px; height: 36px;" href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
+                    </div> -->
                 </div>
 
             </div>
@@ -166,6 +169,8 @@
             </p>
         </div>
     </div>
+</div>
+
 </div>
 <!-- Footer End -->
 
@@ -198,7 +203,7 @@
         form.addEventListener('submit', (event) => {
           // Update the action with the value of the subject field
           const subjectValue = encodeURIComponent(subjectField.value);
-          form.action = `mailto:jens.leirens@gmail.com?subject=${subjectValue}`;
+          form.action = `mailto:rexycats@hotmail.com?subject=${subjectValue}`;
       
           // Allow the form to submit
           return true;
